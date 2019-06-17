@@ -4,5 +4,3 @@ function returnFirstTwoDrivers(drivers) {
   newArr.push(drivers.shift());
   newArr.push(drivers.shift());
 }
-
-function return
