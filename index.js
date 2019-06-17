@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const twoDrivers = function returnFirstTwoDrivers(drivers) {
+function returnFirstTwoDrivers(drivers) {
   let newArr = [];
   newArr.push(drivers[0]);
   newArr.push(drivers[1]);
