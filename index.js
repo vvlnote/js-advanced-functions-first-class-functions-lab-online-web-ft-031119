@@ -14,7 +14,9 @@ let selectingDrivers = [
 function createFareMultiplier(multiplier) {
   return function(fare) {return fare * multiplier;};
 }
-
+const fareDoubler = createFareMultiplier(2);
+const fareTripler = createFareMultiplier(3);
+/*
 function fareDoubler(fair) {
   const double = createFareMultiplier(2);
   return double(fair);
@@ -24,7 +26,7 @@ function fareTripler(fair) {
   const triple = createFareMultiplier(3);
   return triple(fair);
 }
-
+*/
 function selectDifferentDrivers(drivers, fn) {
    return  fn(drivers);
 }
